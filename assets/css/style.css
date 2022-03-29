@@ -73,6 +73,13 @@ header p {
 }
 
 
+
+
+/* Highlights content when clicked */
+.card pre:active {
+    user-select: all;
+  }
+
 /* Media Querery */
 @media screen and (max-width: 992px) {
     .flex .card {
