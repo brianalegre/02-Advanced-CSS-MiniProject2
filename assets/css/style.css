@@ -11,6 +11,7 @@ header {
 
 header h1 {
     font-size: 50px;
+
 }
 
 header p {
@@ -18,11 +19,28 @@ header p {
 }
 
 .flex {
+    /* Sets the display to flex */
+    /* allows the flex proporties */
     display: flex;
+    /* Spaces out the items evenly */
     justify-content: space-evenly;
+    /* Items will go to the next row once the item reaches the end width */
     flex-wrap: wrap;
 }
 
 .flex .card {
+    /* Spaces outs in thirds of the total width */
     width: 30%;
+    /* Sets a dashed border */
+    border: 2px dashed white;
+
+    /* Adds space between the items */
+    margin: 10px;
+    padding: 10px;
+}
+
+.card h1 {
+    /* Sets the item position relative to it's container */
+    position: relative;
+    border: 2px solid white;
 }
