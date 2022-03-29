@@ -72,3 +72,21 @@ header p {
     border-radius: 15px;
 }
 
+
+/* Media Querery */
+@media screen and (max-width: 992px) {
+    .flex .card {
+        flex: 0 0 45%;
+        width: 45%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex .card {
+        flex: 0 0 90%;
+        width: 90%;
+    }
+    
+}
